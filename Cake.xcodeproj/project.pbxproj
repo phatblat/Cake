@@ -34,7 +34,6 @@
 		63B53DB821877F7900D863E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B53DB621877F7900D863E0 /* Main.storyboard */; };
 		63B53DD42187B3EC00D863E0 /* alert().swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B53DD32187B3EC00D863E0 /* alert().swift */; };
 		63C0A9EE2185614900A00C8E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C0A9ED2185614900A00C8E /* Utility.swift */; };
-		63C9152B22282ADD006492A3 /* Cake.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 63C9151222282ADC006492A3 /* Cake.xcconfig */; };
 		63D49E3621BC81740023DB0E /* AppDelegate+NSMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D49E3521BC81740023DB0E /* AppDelegate+NSMenu.swift */; };
 		63D7C3DB2208CA6C0096BF63 /* MixerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D7C3DA2208CA6C0096BF63 /* MixerTests.swift */; };
 		63DB0B9C220DC78F00CEF31A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DB0B9B220DC78F00CEF31A /* main.swift */; };
@@ -565,7 +564,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Max Howell";
 				TargetAttributes = {
 					63537994220E8343008449E9 = {
@@ -811,7 +810,6 @@
 			files = (
 				63B53DB521877F7900D863E0 /* Assets.xcassets in Resources */,
 				63B53DB821877F7900D863E0 /* Main.storyboard in Resources */,
-				63C9152B22282ADD006492A3 /* Cake.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,10 +981,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/AppKit/Cake.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Sources/AppKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1006,10 +1005,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Sources/AppKit/Cake.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Sources/AppKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1026,8 +1026,9 @@
 		63DB0B9D220DC78F00CEF31A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1038,8 +1039,9 @@
 		63DB0B9E220DC78F00CEF31A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -1171,7 +1173,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1189,7 +1191,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TEQMQBRC7B;
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
